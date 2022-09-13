@@ -8,16 +8,30 @@
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <h1>Rock Paper Scissors</h1>
-    <h3>The Game</h3>
+    <div class="header">
+      <h1>Rock Paper Scissors</h1>
+      <h3>The Game</h3>
+      <h5>
+        This game is to be executed via the console inside developer tools.
+        Press the &nbsp;<span>START</span>&nbsp; button below once ready.
+      </h5>
 
-    <div class="startButton">
-      <a href="start.html">
-        <button>Start</button>
-      </a>
+      <div class="imgDiv">
+        <img
+          src="https://c4.wallpaperflare.com/wallpaper/899/325/192/minimalism-rock-paper-scissors-wallpaper-preview.jpg"
+          alt=""
+          class="img1"
+        />
+      </div>
     </div>
 
-    <footer>Copywrite @ 2022 MauriceDR</footer>
+    <div class="startButton">
+      <button onclick="game()">START</button>
+    </div>
+
+    <div class="end">
+      <footer>Copywrited @ 2022 MauriceDR</footer>
+    </div>
     <script src="code.js"></script>
   </body>
 </html>
